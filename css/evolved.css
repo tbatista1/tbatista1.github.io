@@ -1,0 +1,546 @@
+/*
+  B2B Has Evolved
+  Author: ListenLoop
+  Author URI: http://www.listenloop.com
+*/
+
+/* TEXT COLORS */
+.blue { 
+	color:#2A445E;
+}
+.gold {
+	color:#FEAD24;
+}
+.teal {
+	color:#1fb5ad;
+}
+.white {
+	color:#FFFFFF;
+}
+/* BACKGROUND COLORS */
+.bluebk {
+	background-color: #2A445E;
+}
+.graybk {
+	background-color: #F1F2F7;
+}
+.tealbk {
+	background-color: #1fb5ad;
+}
+/* SPECIAL MARGINS */
+.insertspace {
+	margin-left: 60px;
+}
+.insertlilspace {
+	margin-left: 20px;
+}
+.spacesmall {
+	margin-top: 16px;
+}
+.spacemid {
+	margin-top: 30px;
+}
+.spacer {
+	margin-top: 68px;
+}
+.vertdivcenter {
+    padding: 5% 0;
+}
+.verttextcenter {
+    padding: 10% 0;
+}
+.minus {
+	padding-top: 0 !important;
+}
+.righty {
+	text-align: right;
+}
+.central {
+	text-align: center;
+}
+/* NAV BAR FIXES */
+.navbar-fixed-up {
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #1fb5ad;
+}
+.nav .open>a, 
+.nav .open>a:focus, 
+.nav .open>a:hover {
+	background-color: #FEAD24;
+}
+.nav .active a {
+	font-weight: 300;
+}
+.dropdown-menu {
+	background-color: #2A445E;
+}
+.dropdown-menu li a:hover {
+	color:#FFFFFF;
+	background-color: #9A70B7;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pdf-mobile-button {
+    padding: 9px 6px !important;
+    margin-top: 12px;
+    font-size: 12px;
+}
+.pdf-button {
+	padding: 6px !important;
+    margin-top: 8px;
+    font-size: 14px;
+}
+@media (min-width: 979px) {
+  	ul.nav li.dropdown:hover > ul.dropdown-menu {
+    	display: block;
+  	}
+  	.nav .open>a, 
+	.nav .open>a:focus, 
+	.nav .open>a:hover {
+		background-color: transparent;
+	}
+}
+@media (min-width: 768px) {
+	.pdf-mobile-button {
+		display: none;
+	}
+}
+
+html, body, .jumbotron {
+  width:100%;
+}
+p {
+	font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1.125px;
+    font-weight: 400;
+}
+.quote {
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 700;
+}
+.jumbotron {
+	background-image:url(../images/evolved/network.png);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-bottom: 0 !important;
+}
+.title-statement {
+	text-align: center;
+	padding-top:82px;
+	padding-bottom:12px;
+}
+.title-statement h1 {
+	color: #ffffff;
+	text-align: center;
+	font-size: 60px;
+	margin-top: 0 !important;
+	padding: 10px 0 10px;
+}
+#adapt-statement {
+	background-color: #ffffff;
+	padding: 12px 0 20px;
+}
+#adapt-statement h2 {
+	text-align: center;
+	font-size: 72px;
+	text-transform: uppercase;
+	color:#1fb5ad;
+	font-weight: 700;
+}
+.sectionheader {
+	padding: 1px;
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 40px;
+	background-color: #FFFFFF;
+}
+.sectionheader h3 {
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.historymoney img{
+	display:block;
+    margin:auto;
+}
+#paulcircle {
+	background-image:url(../images/evolved/paul-mottram.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+	width: 178px;
+	height: 178px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:3px solid #9a70b7;
+	position: relative;
+}
+#chesscircle {
+	background-image:url(../images/evolved/chessdrawing.jpg);
+	background-repeat: no-repeat;
+    background-position: top center;
+	width:279px;
+	height:279px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:1px solid #2A445E;
+	position: relative;
+}
+#loricircle {
+	background-image:url(../images/evolved/lori-wizdo.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+	width: 178px;
+	height: 178px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:3px solid #1fb5ad;
+	position: relative;
+}
+#siriuscircle {
+	background-image:url(../images/evolved/sirius-logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFFFFF;
+	width: 178px;
+	height: 178px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:3px solid #1fb5ad;
+	position: relative;
+}
+.rolecircle {
+	background-color:transparent;
+	width: 148px;
+	height: 148px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:6px solid #2A445E;
+	margin: 0 auto;
+	position:relative;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+#jeffcircle {
+	background-image:url(../images/evolved/jeff-soriano.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+	width: 178px;
+	height: 178px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:3px solid #2A445E;
+	position: relative;
+}
+.reference {
+	display: flex;
+	align-items: center;
+}
+.circlenumblue {
+	background-color:#2A445E;
+	width: 48px;
+	height: 48px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:4px solid #FFFFFF;
+	margin: 0 auto;
+	position:relative;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.circlenumblue h4 {
+	margin: 0 !important;
+	font-family: open-sans, sans-serif;
+	font-size: 24px;
+    font-weight: 700;
+    color:#FFFFFF;
+}
+.questioncircle {
+	background-color:#FC855F;
+	width: 160px;
+	height: 160px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    margin: 0 auto;
+	position:relative;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.questions {
+	height:180px;
+}
+.circlenumwhite {
+	background-color:#FFFFFF;
+	width: 48px;
+	height: 48px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:6px solid #1fb5ad;
+	margin: 0 auto;
+	position:relative;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.circlenumwhite h4 {
+	margin: 0 !important;
+	font-family: open-sans, sans-serif;
+	font-size: 24px;
+    font-weight: 700;
+    color:#2A445E;
+}
+.statcircle {
+	background-color:transparent;
+	width: 200px;
+	height: 200px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	border:0;
+	margin: 0 auto;
+	position:relative;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.personalcircle {
+	background-color:#9A70B7;
+	width: 160px;
+	height: 160px;
+	border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	margin: 0 auto;
+	position:relative;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+#times-changing,
+#leveraging,
+#implementing,
+#click-info {
+	background-color: #343F53;
+}
+#buyers-know,
+#who-should,
+#qp-downloads {
+	background-color: #1fb5ad;
+
+}
+#past-decade,
+#display-role,
+#personalize,
+#demo-personal {
+	background-color: #F1F2F7;	
+}
+#past-decade,
+#times-changing,
+#buyers-know,
+#display-role,
+#leveraging,
+#who-should,
+#implementing,
+#qp-downloads,
+#demo-personal,
+#click-info,
+#personalize {
+	padding-top: 68px;
+    padding-bottom: 71px;
+}
+.whitecard {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 40px 16px 16px;
+	border-radius: 12px;
+	margin-top: -24px;
+}
+.bluecard {
+	background-color: #2A445E;
+	text-align: center;
+	padding: 30px;
+	border-radius: 12px;
+}
+.cardy {
+	height:150px;
+}
+.ponder {
+	background-color: #2A445E;
+}
+.ponder h3 {
+	font-size: 34px;
+	font-weight: 700;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.ponder-points:not(:last-child),
+.lineup:not(:last-child) {
+	border-right: 2px solid #FFFFFF;
+}
+.ponder-image {
+	height: 250px;
+	position: relative;
+}
+.ponder-image img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+  	right: 0;
+  	width: auto;
+  	height: auto;
+  	max-width: 100%;
+  	max-height: 100%;
+  	margin: auto auto 0;
+}
+.ponder-points p {
+    min-height: 160px;
+}
+.mktmix {
+	font-size: 16px;
+	line-height: 24px;
+}
+.arrow {
+    background-image:url(../images/evolved/textexpandarrow.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#conclusion {
+	background-color: #FEAD24;
+	padding: 1px;
+	text-align: center;
+}
+#conclusion h3{
+	color:#ffffff;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+#summary .container-fluid {
+	width: 100%;
+	background-image:url(../images/evolved/city.png);
+	background-position: center bottom;
+	background-repeat: repeat-x;
+	background-size: 100% auto;
+}
+.business-guy {
+	float:right !important;
+}
+.business-guy img {
+	float:right;
+	margin-top: 20px;
+}
+.summary-text p {
+    line-height: 40px !important;
+    margin-top: 72px;
+}
+#footer-bottom p {
+	font-size: 14px !important;
+}
+@media (max-width: 767px) {
+	body, html { 
+		overflow-x:hidden; 
+	}
+	.navbar-nav li .pdf-button {
+		display: none;
+	}
+	.title-statement h1 {
+		font-size: 30px;
+	}
+	#adapt-statement h2 {
+		font-size: 40px;
+	}
+	.jumbotron {
+		height: 300px;
+	}
+	.sectionheader {
+		padding-top: 24px;
+		padding-bottom: 24px;
+	}
+	.sectionheader h3 {
+    	font-size: 28px;
+	}
+	p {
+		font-size: 16px;
+		line-height: 26px !important;
+	}
+	.spacer {
+    	margin-top: 30px;
+	}
+	#past-decade,
+	#times-changing,
+	#buyers-know,
+	#display-role,
+	#leveraging,
+	#who-should,
+	#implementing,
+	#qp-downloads,
+	#demo-personal,
+	#click-info,
+	#personalize {
+		padding-top: 32px;
+    	padding-bottom: 34px;
+	}
+	.vertdivcenter,
+	.verttextcenter {
+    	padding: 0;
+	}
+	#paulcircle,
+	#chesscircle,
+	#loricircle,
+	#siriuscircle,
+	#jeffcircle {
+		margin: 0 auto;
+	}
+	.quote {
+    	font-size: 20px;
+    	line-height: 28px;
+	}
+	.ponder h3 {
+		font-size: 28px;
+	}
+	.ponder1 {
+		height: 200px !important;
+	}
+	.ponder2 {
+		min-height: 90px !important;
+	}
+	.ponder3 {
+		height: 170px !important;
+	}
+	.arrow {
+		background: transparent;
+	}
+	#click-info .insertspace {
+		margin-left: 0;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.summary-text p {
+    	line-height: 26px !important;
+    	margin-top: 30px;
+	}
+}

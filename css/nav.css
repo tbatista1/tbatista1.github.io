@@ -1,0 +1,118 @@
+/* NAV BAR FIXES */
+.navbar-fixed-up {
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background-color: #1fb5ad;
+}
+.nav .open>a, 
+.nav .open>a:focus, 
+.nav .open>a:hover {
+	background-color: #FEAD24;
+}
+.nav .active a {
+	font-weight: 300;
+}
+.dropdown-menu {
+	background-color: #2A445E;
+}
+.dropdown-menu li a:hover {
+	color:#FFFFFF;
+	background-color: #9A70B7;
+	padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pdf-mobile-button {
+    padding: 9px 6px !important;
+    margin-top: 12px;
+    font-size: 12px;
+}
+.pdf-button {
+	padding: 6px !important;
+    margin-top: 8px;
+    font-size: 14px;
+}
+#content {
+	padding-top: 62px;
+}
+/* INTEGRATE BAR */
+.integrate-banner,
+.home-integrate-banner {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1020;
+    background-color: #EEEEEE;
+    height: 50px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 2px #333333;
+}
+
+.integrate-banner-fixed {
+    top: 60px !important;
+}
+
+.integrate-banner a:hover,
+.integrate-banner a:hover i,
+.home-integrate-banner a:hover,
+.home-integrate-banner a:hover i {
+	color: #2196F3;
+}
+.integrate-inner {
+	display: inline-flex;
+	padding:0;
+	align-items: center;
+}
+.listenloop-announce-brand img {
+	max-height: 24px;
+	margin-top: 3px;	
+}
+.integrate-announce-txt {
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin:0 6px;
+	font-style: italic;
+}
+.integrate-announce-brand img {
+	max-height: 30px;
+}
+.integrate-announce-cta {
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	margin: 0 6px;
+	font-style: italic;
+}
+.integrate-announce-cta i {
+	color:#35bcb5;
+}
+s
+@media (min-width: 979px) {
+  	ul.nav li.dropdown:hover > ul.dropdown-menu {
+    	display: block;
+  	}
+  	.nav .open>a, 
+	.nav .open>a:focus, 
+	.nav .open>a:hover {
+		background-color: transparent;
+	}
+}
+@media (min-width: 768px) {
+	.pdf-mobile-button {
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px) {
+
+	.integrate-announce-txt {
+		font-size: 8px;
+	}
+	.integrate-announce-cta {
+		font-size: 9px;
+	}
+}

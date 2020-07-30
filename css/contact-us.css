@@ -1,0 +1,21 @@
+/*========================
+Contact Us Landing Page
+==========================*/
+
+.contact-us-floater {
+    padding: 2.5em 5%;
+    background-color:#33485e;
+	color:#fff;
+	margin-bottom: 150px;
+	border-radius: 5px;
+}
+
+#download-page h1, #download-page h2 {
+	color: #33485e !important;
+	font-weight: 300 !important;
+}
+
+#download-page h1 {
+	color: #33485e !important;
+	font-weight: 400 !important;
+}
